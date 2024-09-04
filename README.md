@@ -13,7 +13,7 @@ npm install --save-dev @luccasfr/eslint-config-nodejs
 Install all peer-dependencies:
 
 ```sh
-npm install --save-dev
+npm install --save-dev @typescript-eslint eslint-config-prettier eslint-plugin-prettier eslint-plugin-unicorn
 ```
 
 ESLint are not included in the install script, as it is assumed you are already using NodeJS with Typescript, ESLint and Prettier.
@@ -31,17 +31,16 @@ To use this ESLint configuration in your project, extend it in your .eslintrc fi
 }
 ```
 
-# Rules
-
-This configuration includes the following rules and plugins:
-
-## Plugins
+# Plugins
 
 - @typescript-eslint
-- eslint-plugin-import
-- eslint-plugin-react
-- eslint-plugin-react-hooks
-- eslint-plugin-unicorn
+
+# Extends
+
+- prettier/recommended
+- prettier
+- eslint:recommended
+- plugin:unicorn/recommended
 
 # Peer Dependencies
 
