@@ -46,6 +46,14 @@ To use this ESLint configuration in your project, extend it in your .eslintrc fi
 
 Make sure to install the following peer dependencies:
 
+- @typescript-eslint/eslint-plugin: >=7.9.0
+- @typescript-eslint/parser: >=7.9.0
+- eslint: >=8.57.0
+- eslint-config-prettier: >=9.1.0
+- eslint-plugin-prettier: >=5.1.3
+- eslint-plugin-unicorn: >=55.0.0
+- prettier: >=3.2.5
+
 # Author
 
 Lucas Ferreira - lucas.ferreira@jerasoft.inf.br
