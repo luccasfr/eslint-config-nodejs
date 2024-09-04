@@ -29,6 +29,7 @@ module.exports = {
     "unicorn/no-array-reduce": "off",
     "unicorn/prevent-abbreviations": "off",
     "unicorn/no-null": "off",
+    "unicorn/prefer-top-level-await": "off",
     "no-var": "error",
     semi: "off",
     indent: "off", // prettier should handle this
