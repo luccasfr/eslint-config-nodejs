@@ -1,0 +1,50 @@
+module.exports = {
+  parser: "@typescript-eslint/parser",
+  extends: [
+    "plugin:prettier/recommended",
+    "prettier",
+    "eslint:recommended",
+    "plugin:unicorn/recommended",
+  ],
+  plugins: ["@typescript-eslint"],
+  ignorePatterns: ["node_modules/", "dist/", "jest.config.js", "pre-commit.js"],
+  parserOptions: {
+    ecmaVersion: 2022,
+    sourceType: "module",
+    project: "tsconfig.json",
+  },
+  env: {
+    es6: true,
+    node: true,
+    jest: true,
+  },
+  rules: {
+    "unicorn/filename-case": [
+      "error",
+      {
+        case: "kebabCase",
+      },
+    ],
+    "unicorn/prefer-module": "off",
+    "unicorn/no-array-reduce": "off",
+    "unicorn/prevent-abbreviations": "off",
+    "unicorn/no-null": "off",
+    "no-var": "error",
+    semi: "off",
+    indent: "off", // prettier should handle this
+    "no-multi-spaces": "error",
+    "space-in-parens": "error",
+    "no-multiple-empty-lines": "error",
+    "prefer-const": "error",
+    "no-unused-vars": "off",
+    "@typescript-eslint/no-unused-vars": ["error", { argsIgnorePattern: "^_" }],
+    "no-useless-constructor": "off",
+    "@typescript-eslint/no-useless-constructor": "error",
+    "no-empty-function": "off",
+    "@typescript-eslint/no-empty-function": "error",
+    "no-dupe-class-members": "off",
+    "@typescript-eslint/no-dupe-class-members": "error",
+    "no-redeclare": "off",
+    "@typescript-eslint/no-redeclare": "error",
+  },
+};

@@ -1,0 +1,32 @@
+{
+  "name": "@luccasfr/eslint-config-nodejs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": ">=7.9.0",
+    "@typescript-eslint/parser": ">=7.9.0",
+    "eslint": ">=8.57.0",
+    "eslint-config-prettier": ">=9.1.0",
+    "eslint-plugin-prettier": ">=5.1.3",
+    "eslint-plugin-unicorn": ">=55.0.0",
+    "prettier": ">=3.2.5"
+  },
+  "keywords": [
+    "eslint",
+    "eslint-config",
+    "nodejs",
+    "typescript",
+    "prettier"
+  ],
+  "author": "Lucas Ferreira <lucas.ferreira@jerasoft.inf.br>",
+  "license": "ISC",
+  "description": "ESLint configuration for NodeJS projects with TypeScript",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/luccasfr/eslint-config-nodejs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/luccasfr/eslint-config-nodejs/issues"
+  },
+  "homepage": "https://github.com/luccasfr/eslint-config-nodejs#readme"
+}
