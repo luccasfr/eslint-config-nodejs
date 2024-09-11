@@ -38,7 +38,7 @@ module.exports = {
     "no-multiple-empty-lines": "error",
     "prefer-const": "error",
     "no-unused-vars": "off",
-    "@typescript-eslint/no-unused-vars": ["error", { argsIgnorePattern: "^_" }],
+    "@typescript-eslint/no-unused-vars": ["error", { argsIgnorePattern: "^_", varsIgnorePattern: "^_" }],
     "no-useless-constructor": "off",
     "@typescript-eslint/no-useless-constructor": "error",
     "no-empty-function": "off",
